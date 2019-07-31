@@ -4,12 +4,13 @@
 	"name": "Set RCH Radiology margins",
 	"version": "0.1.0",
 	"description":  "insert print media css to insure proper margins",
+	// Set some icons so user can easily see the extension is loaded
 	"icons": {
 		"16": "icon16.png",
 		"48": "icon48.png",
 		"128": "icon128.png"
 	},
-
+	// Apply the css only to urls from the PACS site
 	"content_scripts": [{
 		"css": ["styles.css"],
 		"matches": ["https://pacs.unitedradiology.net/*"]
