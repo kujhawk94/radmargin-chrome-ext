@@ -2,7 +2,7 @@
 	"manifest_version": 3,
 
 	"name": "Set RCH Radiology margins",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description":  "insert print media css to insure proper margins",
 	"icons": {
 		"16": "icon16.png",
